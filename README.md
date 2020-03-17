@@ -1,28 +1,40 @@
-# Unity2019114f1-2D-Template
+# game-Worms-millig
 
-### Project description: 
-Introduction/Project summary 
+### Project Description:
+A 2D Game where two identical characters compete against each other by trying to shoot bullets at the other player   
 
-### Development platform: 
-(OS, Unity Version, Visual Studio Version, used SDKs)
+
+### Development platform:
++ MacOS Mojave 10.14.6 
++ Unity 2019.1.14f1
++ Visual Studio Code 1.30.2
+
 
 ### Target platform: 
-WebGL, Mobile, VR Device incl. reference resolution 
+WebGL incl. reference resolution 960x600
+
 
 ### Visuals: 
-Screenshots (concept and experience), Video
+TODO
+
 
 ### Necessary setup/execution steps: 
-Installation process, e.g. step by step instructions that I can run the project after cloning it
+WebGL has to be installed
+
 
 ### Third party material: 
-(if used Fonts, Sounds, Music, Graphics, Materials, Code etc.)
+Template: https://github.com/3ahmnm-htlsbg/Unity2019114f1-2D-Template
+
 
 ### Project state: 
-incl. progress in percent
+TODO
+
 
 ### Limitations: 
+TODO
 
-### Lessons Learned: 
 
-Copyright by you :)
+### Lessons Learned:  
+
+
+Copyright by millig
