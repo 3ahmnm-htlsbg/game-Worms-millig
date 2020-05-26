@@ -5,13 +5,15 @@ using UnityEngine;
 public class WormController : MonoBehaviour
 {
     public KeyCode jumpKey;
+    public KeyCode downKey;
     public KeyCode forwardKey;
     public KeyCode backwardKey;
+    public KeyCode shootKey;
     public Rigidbody z;
     public Vector3 x;
     public Vector3 y;
-
     public ForceMode f;
+    public GameObject projectile;
 
 
     // Update is called once per frame
@@ -34,6 +36,18 @@ public class WormController : MonoBehaviour
         {
             Debug.Log("Charakter bewegt sich nach links.");
             z.AddForce(-y);
+        }
+
+        if (Input.GetKeyDown(downKey))
+        {
+            Debug.Log("Charakter bewegt sich nach unten.");
+            z.AddForce(-x);
+        }
+
+        if (Input.GetKeyDown(shootKey))
+        {
+            Debug.Log("Charakter schießt.");
+            Instantiate(projectile);
         }
 
     }
