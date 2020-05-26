@@ -10,7 +10,7 @@ public class WormController : MonoBehaviour
     public Rigidbody z;
     public Vector3 x;
     public Vector3 y;
-    public Vector3 v;
+
     public ForceMode f;
 
 
@@ -33,7 +33,7 @@ public class WormController : MonoBehaviour
         if (Input.GetKeyDown(backwardKey))
         {
             Debug.Log("Charakter bewegt sich nach links.");
-            z.AddForce(v, f);
+            z.AddForce(-y);
         }
 
     }
